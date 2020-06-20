@@ -22,7 +22,7 @@ section {
 .beef,
 .sushi {
 	position: relative;
-	background: #908a8a;
+	background: #ced1d3;
 	padding-bottom: 5px;
 	height: auto;
 	width: auto;
@@ -48,7 +48,7 @@ section {
 .chicken p,
 .beef p,
 .sushi p {
-	font-family: sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	padding: 10px;
 	font-size: 16px;
 	margin-top: 20px;
@@ -56,14 +56,11 @@ section {
 }
 
 /* ---------Background of headers---------- */
-.chicken h3 {
-	background: #e86565;
-}
-.beef h3 {
-	background: #f42222;
-}
+.chicken h3,
+.beef h3,
 .sushi h3 {
-	background: #f4fa76;
+	color: #ffffff;
+	background: #5d5e5f;
 }
 
 /* ---------------Size of main container----------- */
