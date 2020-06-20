@@ -9,6 +9,9 @@
 header {
 	padding: 20px;
 	text-align: center;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 20px;
 }
 
 /* --------Style for all sections----------- */
@@ -22,7 +25,7 @@ section {
 .beef,
 .sushi {
 	position: relative;
-	background: #ced1d3;
+	background: #545555;
 	padding-bottom: 5px;
 	height: auto;
 	width: auto;
@@ -48,10 +51,12 @@ section {
 .chicken p,
 .beef p,
 .sushi p {
+	color: #ffffff;
+	font-weight: lighter;
 	font-family: Arial, Helvetica, sans-serif;
-	padding: 10px;
+	padding: 10px 20px;
 	font-size: 16px;
-	margin-top: 20px;
+	margin-top: 25px;
 	width: auto;
 }
 
@@ -60,11 +65,22 @@ section {
 .beef h3,
 .sushi h3 {
 	color: #ffffff;
-	background: #5d5e5f;
+	background: #354a5f;
+}
+
+.beef h3 {
+	color: #ffffff;
+	background: #186abd;
+}
+
+.sushi h3 {
+	color: #ffffff;
+	background: #c22f2f;
 }
 
 /* ---------------Size of main container----------- */
 .row {
+	padding: 20px;
 	width: 100%;
 }
 
