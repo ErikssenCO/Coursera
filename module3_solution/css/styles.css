@@ -57,24 +57,24 @@ main h2 {
 	font-size: 2em;
 	padding: 10px;
 }
-main section {
+main .row section {
 	background: #5e6975;
 	margin-bottom: 10px;
 }
-main section a h3 {
+main .row section a h3 {
 	color: #fff;
 	font-size: 1.6em;
 	font-weight: bolder;
 }
 
-main section a {
+main .row section a {
 	text-decoration: none;
 	color: #353b42;
 	font-weight: bold;
 	font-size: 1.2em;
 }
 
-main section a:hover {
+main .row section a:hover {
 	text-decoration: none;
 	color: #353b42;
 	font-weight: bold;
@@ -115,11 +115,11 @@ main section a:hover {
 	main h2 {
 		font-size: 5vw;
 	}
-	main section a h3 {
+	main .row section a h3 {
 		font-size: 5vw;
 	}
 
-	main section p {
+	main .row section p {
 		font-size: 5vw;
 	}
 }
