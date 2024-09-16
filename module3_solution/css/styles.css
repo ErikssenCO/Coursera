@@ -1,0 +1,125 @@
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: #9badc2;
+	font-family: 'Lato', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+	background-color: #0d4a8f;
+	padding: 10px;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-brand h1 {
+	/* Restaurant name */
+	font-family: 'Fondamento', cursive;
+	color: #fff;
+	font-size: 1.9em;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+	text-decoration: none;
+}
+#nav-list a {
+	color: #fff;
+	text-align: center;
+	font-size: 1.3em;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bolder;
+}
+#nav-list a:hover {
+	background: #e7e7e7;
+	color: #353b42;
+	font-weight: bolder;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+	border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -50px;
+}
+/* END HEADER */
+
+/* MAIN CONTENT */
+
+main h2 {
+	color: #353b42;
+	font-weight: bold;
+	font-size: 2em;
+	padding: 10px;
+}
+main .row section {
+	background: #5e6975;
+	margin-bottom: 10px;
+}
+main .row section a h3 {
+	color: #fff;
+	font-size: 1.6em;
+	font-weight: bolder;
+}
+
+main .row section a {
+	text-decoration: none;
+	color: #353b42;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+main .row section a:hover {
+	text-decoration: none;
+	color: #353b42;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+/* END MAIN CONTENT */
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	/* Header */
+	.navbar-brand {
+		padding-top: 10px;
+		height: 80px;
+	}
+	.navbar-brand h1 {
+		/* Restaurant name */
+		padding-top: 10px;
+		font-size: 5vw; /* 1vw = 1% of viewport width */
+	}
+
+	#collapsable-nav a {
+		/* Collapsed nav menu text */
+		font-size: 1.2em;
+	}
+	#collapsable-nav a span {
+		/* Collapsed nav menu glyph */
+		font-size: 1em;
+		margin-right: 5px;
+	}
+	/* END HEADER */
+
+	/* MAIN CONTENT */
+	main h2 {
+		font-size: 5vw;
+	}
+	main .row section a h3 {
+		font-size: 5vw;
+	}
+
+	main .row section p {
+		font-size: 5vw;
+	}
+}
